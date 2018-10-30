@@ -1,0 +1,61 @@
+html {
+    font-family: 'helvetica', monospace;
+    height: 200%;
+}
+
+body {
+    height:100%;
+    color: white;
+    background: linear-gradient(to bottom, #acefea 0%, #ffccff 100%);
+    
+}
+
+h1.title {
+    font-size: 1.5rem;
+    color: #ff9eed;
+    padding-top: 400px;
+    position:fixed;
+    left: 488px;
+    top:40px;
+
+}
+
+h4.list{
+    color: white;
+    top:200px;
+}
+
+.fix {
+    padding: 250px;
+    position:fixed;
+    left: 220px;
+    top:40px;
+    height:140px;
+    width:auto;
+}
+
+li.work{
+    position:fixed
+    right: 100px;
+}
+
+div.chat {
+    border-radius: 25px;
+    background: #ff9eed;
+    position: fixed;
+    padding: 40px; 
+    left: 720px;
+    width: 300px;
+    height: 400px; 
+    top:120px;
+}
+.triangle {
+    position: absolute;
+    left: -29px;
+    top: 204px;
+    width: 0; 
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; 
+    border-right:30px solid #ff9eed; 
+  }
