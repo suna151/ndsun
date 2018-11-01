@@ -1,14 +1,54 @@
 html {
     font-family: 'helvetica', monospace;
-    height: 200%;
+    min-height: 100%;
 }
 
-body {
-    height:100%;
-    color: white;
+bkg1{
+     color: white;
+    font-size: 16px;
     background: linear-gradient(to bottom, #acefea 0%, #ffccff 100%);
-    
+
 }
+body {
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #acefea 0%, #ffccff 100%);
+    min-height: 100%;
+}
+
+.container
+{
+ max-width: 1000px;
+ margin: 0 auto;
+
+}
+
+
+.two-up {
+    margin: 40px 0;
+    /* border: 10px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-up div {
+    width: 48%;
+}
+.two-up img {
+    width: 100%;
+}
+
+
+a{
+    color:#acefea;
+    -o-transition:color .2s ease-out, background 2s ease-in;
+    -ms-transition:color .2s ease-out, background 2s ease-in;
+    -moz-transition:color .2s ease-out, background 2s ease-in;
+    -webkit-transition:color .2s ease-out, background 2s ease-in;
+    transition:color .2s ease-out, background 2s ease-in;
+    text-decoration: none;
+}
+a:hover { color:red; background:#ff9eed; }
 
 h1.title {
     font-size: 1.5rem;
@@ -20,6 +60,29 @@ h1.title {
 
 }
 
+.locationtitle{
+    color: #ff9eed;
+}
+.locationdesc{
+    text-align: center;
+    font-weight:bold;
+    line-height: 30px;
+
+}
+.map{
+    padding-top: 26px;
+
+}
+
+.locationdesc2{
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight:bold;
+    padding-bottom: 27px;
+    border-bottom: 7px dashed #fec4ff;
+
+}
 h4.list{
     color: white;
     top:200px;
@@ -34,11 +97,41 @@ h4.list{
     width:auto;
 }
 
-li.work{
-    position:fixed
-    right: 100px;
+.QB {
+    font-size: 4rem;
+    padding-left: 50px;
+    margin-top: 60px;
+    color: #ff9eed;
+    margin: .5em 0;
+} 
+
+.isfs {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding-left: 55px;
+    padding-bottom: 40px;
+    border-bottom: 7px dashed #fec4ff;
+    margin: 0;
 }
 
+.three-up{
+display: flex;
+justify-content: space-between;
+}
+.three-up div {
+    width: 48%;
+}
+
+.three-up1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px 
+    }
+
+.three-up1 div {
+        width: 48%;
+    }
+    
 div.chat {
     border-radius: 25px;
     background: #ff9eed;
@@ -49,6 +142,7 @@ div.chat {
     height: 400px; 
     top:120px;
 }
+
 .triangle {
     position: absolute;
     left: -29px;
@@ -59,3 +153,122 @@ div.chat {
     border-bottom: 30px solid transparent; 
     border-right:30px solid #ff9eed; 
   }
+
+  .fix2{
+      margin-top: 40px;
+      margin-left:190px;    
+
+      height: 400px;
+      width: auto;
+  }
+
+  .fix3{
+    margin-top: 40px;
+    margin-left:70px;    
+    height: 400px;
+    width: auto;
+  }
+
+.desc {
+    max-width: 1500px;
+    padding-right: 100px;
+    padding: 3px;
+    line-height: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 11px;
+        border-bottom: 7px dashed #ff9eed;
+
+
+  }
+
+.it1 {
+
+font-size: 2rem;
+color: #ff9eed;
+}
+
+.it2{
+     font-size: 2rem;
+    color: #9ec2ff;
+}
+
+.fix4{
+    position: absolute;
+    right: 500px;
+    height: 300px;
+    width: auto;
+    padding-left: 900px;
+}
+
+.fix5{
+    position: absolute;
+    height: 300px;
+    width: auto;
+    left: 960px;
+}
+
+.fix6{
+    position: absolute;
+    height: 300px;
+    top: 937px;
+    width: auto;
+    padding-left: 1186px;
+
+}
+
+.youtube{
+    padding-left: 210px;
+    border-bottom: 7px dashed #9ec2ff;
+    padding-bottom: 30px;
+}
+
+
+
+.fix7{
+    position: absolute;
+    height: 300px;
+    width: auto;
+}
+
+.fix8{
+    position: absolute;
+    height: 300px;
+    width: auto;
+    left: 240px;
+}
+
+.fix9{
+    position: absolute;
+    height: 300px;
+    width: auto;
+    left: 494px;
+}
+.iteration1desc {
+    font-weight:bold;
+    line-height: 27px;
+ max-width: 1000px;
+margin: 0 auto;
+
+}
+.iteration2desc {
+text-align: center;
+font-weight:bold;
+line-height: 27px;
+margin: 0 auto;
+max-width: 1000px;
+
+
+}
+
+.youtube2 {
+    padding-top: 20px;
+    padding-left: 210px;
+    border-bottom: 7px dashed #9ec2ff;
+    margin: auto;
+    padding-bottom: 30px;
+
+
+
+
+}
