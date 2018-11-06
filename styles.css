@@ -1,7 +1,17 @@
 html {
     font-family: 'helvetica', monospace;
     min-height: 100%;
+
 }
+
+p {
+font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
 
 bkg1{
      color: white;
@@ -10,8 +20,9 @@ bkg1{
 
 }
 body {
+    
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     background: linear-gradient(to bottom, #acefea 0%, #ffccff 100%);
     min-height: 100%;
 }
@@ -83,9 +94,9 @@ h1.title {
     border-bottom: 7px dashed #fec4ff;
 
 }
-h4.list{
+h2.list{
     color: white;
-    top:200px;
+    top: 100px;
 }
 
 .fix {
@@ -139,7 +150,7 @@ div.chat {
     padding: 40px; 
     left: 705px;
     width: 300px;
-    height: 400px; 
+    height: 420px; 
     top:120px;
 }
 
@@ -246,14 +257,14 @@ color: #ff9eed;
 }
 .iteration1desc {
     font-weight:bold;
-    line-height: 27px;
+
+line-height: 27px;
  max-width: 1000px;
 margin: 0 auto;
 
 }
 .iteration2desc {
 text-align: center;
-font-weight:bold;
 line-height: 27px;
 margin: 0 auto;
 max-width: 1000px;
@@ -262,13 +273,124 @@ max-width: 1000px;
 }
 
 .youtube2 {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 210px;
     border-bottom: 7px dashed #9ec2ff;
     margin: auto;
     padding-bottom: 30px;
 
+}
+
+.daytitle{
+    color: #ff9eed;
+}
+
+.daytitle2{
+    color:#9ec2ff;
+}
+.daydesc{
+    padding-top: 15px;
+    text-align: center;
+    font-weight:bold;
+    line-height: 30px;
+
+}
+
+.daydescfinal{
+    padding-top: 15px;
+    text-align: center;
+    font-weight:bold;
+    line-height: 30px;
+    padding-bottom: 15px;
+    border-bottom: 7px dashed #9ec2ff;
+
+}
 
 
+.daydescfinal2{
+    padding-top: 15px;
+    text-align: center;
+    font-weight:bold;
+    line-height: 30px;
+    padding-bottom: 15px;
+    border-bottom: 7px dashed #ff9eed;
 
+}
+
+.fiveimgresize {
+    padding-top: 20px;
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.link2 {
+color:#ff9eed;
+-o-transition:color .2s ease-out, background 2s ease-in;
+-ms-transition:color .2s ease-out, background 2s ease-in;
+-moz-transition:color .2s ease-out, background 2s ease-in;
+-webkit-transition:color .2s ease-out, background 2s ease-in;
+transition:color .2s ease-out, background 2s ease-in;
+text-decoration: none;
+}
+
+.container2 {
+ max-width: 1000px;
+ margin: 0 auto;
+
+}
+
+.imageredirect {
+    border: 10px solid blue;
+    margin: 250px;
+    display: flex;
+
+}
+
+
+.two-upnew {
+    font-size: 20px;
+    margin: 40px 0;
+    padding-right: 300px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    padding-bottom: 200px;
+
+}
+
+.two-upnew div{
+    padding-top: 10px;
+}
+.two-upnew img {
+    width: 200%;
+    margin-right: 300px;
+    margin: 10px;
+
+}
+
+.two-upnew1 {
+    font-size: 20px;
+    margin: 50px 0;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+
+.two-upnew1 img {
+    width: 400%;
+    height: auto;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+
+.drawingfix {
+    width: 20%;
+    height: auto;
 }
