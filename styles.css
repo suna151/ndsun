@@ -50,6 +50,21 @@ body {
 }
 
 
+.three-up {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-up div {
+    width: 90%;
+}
+.three-up img {
+    width: 200%;
+}
+
+
+
 a{
     color:#acefea;
     -o-transition:color .2s ease-out, background 2s ease-in;
@@ -150,7 +165,7 @@ div.chat {
     padding: 40px; 
     left: 705px;
     width: 300px;
-    height: 420px; 
+    height: 467px; 
     top:120px;
     margin: 0 auto;
 }
