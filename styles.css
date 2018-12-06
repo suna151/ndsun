@@ -60,7 +60,7 @@ body {
     width: 90%;
 }
 .three-up img {
-    width: 200%;
+    width: 100%;
 }
 
 
@@ -165,7 +165,7 @@ div.chat {
     padding: 40px; 
     left: 705px;
     width: 300px;
-    height: 467px; 
+    height: 470px;  
     top:120px;
     margin: 0 auto;
 }
