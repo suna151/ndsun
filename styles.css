@@ -76,6 +76,18 @@ a{
 }
 a:hover { color:red; background:#ff9eed; }
 
+b{
+    color:#ff9eed;
+    -o-transition:color .2s ease-out, background 2s ease-in;
+    -ms-transition:color .2s ease-out, background 2s ease-in;
+    -moz-transition:color .2s ease-out, background 2s ease-in;
+    -webkit-transition:color .2s ease-out, background 2s ease-in;
+    transition:color .2s ease-out, background 2s ease-in;
+    text-decoration: none;
+}
+
+b:hover { color:red; background:#ff9eed; }
+
 h1.title {
     font-size: 1.5rem;
     color: #ff9eed;
@@ -145,7 +157,7 @@ display: flex;
 justify-content: space-between;
 }
 .three-up div {
-    width: 48%;
+    width: 52%;
 }
 
 .three-up1{
