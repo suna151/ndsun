@@ -38,6 +38,17 @@ body {
   transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom2 {
+    transition: transform .4s; /* Animation */
+    align-content: center
+  
+  }
+  
+  .zoom2:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  
 
 
 .container
@@ -94,6 +105,7 @@ body {
     width: 120%;
     height: auto;
 }
+
 
 
 
@@ -220,7 +232,7 @@ div.chat2 {
     padding: 15px; 
     left: 705px;
     width: 300px;
-    height: 100px;  
+    height: 90px;  
     top:120px;
     margin: 0 auto;
 }
