@@ -50,6 +50,21 @@ body {
   
   
 
+  .zoom3 {
+    transition: transform .4s; /* Animation */
+    align-content: center
+
+
+  
+  }
+  
+  .zoom3:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}
+  
+  
+
 
 .container
 {
@@ -477,4 +492,9 @@ text-decoration: none;
 .drawingfix {
     width: 20%;
     height: auto;
+}
+
+.timelinefix {
+    width: 10%;
+    height: 10%;
 }
