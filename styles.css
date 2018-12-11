@@ -487,6 +487,15 @@ text-decoration: none;
     margin: 10px;
     padding-bottom: 10px;
 
+
+}
+
+#defaultCanvas0 {
+    float: left;
+    margin: 0;
+    margin-left: 100px;
+    width: 35vw;
+    height:33vh;
 }
 
 .drawingfix {
@@ -494,7 +503,20 @@ text-decoration: none;
     height: auto;
 }
 
-.timelinefix {
-    width: 10%;
-    height: 10%;
+
+
+.two-upnew2 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-top: 40px;
+    display: block;
+    font-size: 20px;
+    padding-bottom: 200px;
+    width:35vw;
+    height:220px;
+    float: left;
+
+
 }
+
